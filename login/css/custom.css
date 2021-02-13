@@ -1,0 +1,45 @@
+/* === Root */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'montserrat regular',sans-serif;
+}
+
+/* === body */
+body{
+overflow-y: hidden;
+}
+h2{
+width: 35%;
+text-align: center;
+border-bottom: 1px solid rgb(219, 219, 219);
+line-height: 0.1em;
+margin: 10px 0 20px;
+text-transform: uppercase;
+font-size: 15px;
+}
+
+h2 span {
+background: #fff;
+padding: 0 10px;
+}
+
+h4::selection{
+background-color: #f87171;
+color: white;
+}
+
+/* Media queries */
+
+@media screen and (max-width:991px) {
+    h2 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:425px){
+    h2{
+        width: 80%;
+    }
+}
